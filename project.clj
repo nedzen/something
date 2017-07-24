@@ -4,6 +4,9 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.8.0"]]
+                ;  [clojure.math.numeric-tower :as math]]
+                ;  [clojure.math.combinatorics :as combo]]
+
   :main ^:skip-aot something.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})
